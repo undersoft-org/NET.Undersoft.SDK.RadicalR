@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Undersoft.SDK.RadicalR</id>
+    <version>2.1.2</version>
+    <authors>Dariusz Hanc</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>Package Description</description>
+    <repository url="https://github.com/undersoft-org/UltimatR" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Undersoft.SDK" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="AutoMapper" version="10.1.1" exclude="Build,Analyzers" />
+        <dependency id="FluentValidation" version="10.3.4" exclude="Build,Analyzers" />
+        <dependency id="FluentValidation.DependencyInjectionExtensions" version="10.3.4" exclude="Build,Analyzers" />
+        <dependency id="Google.Protobuf" version="3.21.9" exclude="Build,Analyzers" />
+        <dependency id="Grpc.Core" version="2.44.0" exclude="Build,Analyzers" />
+        <dependency id="Grpc.Core.Api" version="2.44.0" exclude="Build,Analyzers" />
+        <dependency id="Grpc.Net.ClientFactory" version="2.44.0" exclude="Build,Analyzers" />
+        <dependency id="IdentityModel" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="IdentityServer4.AccessTokenValidation" version="3.0.1" exclude="Build,Analyzers" />
+        <dependency id="MediatR" version="10.0.1" exclude="Build,Analyzers" />
+        <dependency id="MediatR.Extensions.Microsoft.DependencyInjection" version="10.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="5.0.13" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Abstractions" version="5.0.13" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Cosmos" version="5.0.13" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.InMemory" version="5.0.13" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Proxies" version="5.0.13" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Relational" version="5.0.13" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="5.0.13" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite" version="5.0.13" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Sqlite" version="5.0.13" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Sqlite.Core" version="5.0.13" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" version="5.0.13" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Identity.Web" version="1.19.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.OData.Client" version="7.9.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.OData.Core" version="7.9.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.OData.Edm" version="7.9.0" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.EntityFramework" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="Npgsql.EntityFrameworkCore.PostgreSQL" version="5.0.10" exclude="Build,Analyzers" />
+        <dependency id="Npgsql.EntityFrameworkCore.PostgreSQL.Design" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="OpenTelemetry" version="1.4.0" exclude="Build,Analyzers" />
+        <dependency id="OpenTelemetry.Api" version="1.4.0" exclude="Build,Analyzers" />
+        <dependency id="OpenTelemetry.Exporter.Console" version="1.4.0" exclude="Build,Analyzers" />
+        <dependency id="OpenTelemetry.Exporter.Jaeger" version="1.4.0" exclude="Build,Analyzers" />
+        <dependency id="OpenTelemetry.Exporter.OpenTelemetryProtocol" version="1.4.0" exclude="Build,Analyzers" />
+        <dependency id="OpenTelemetry.Exporter.Prometheus" version="1.3.0-rc.2" exclude="Build,Analyzers" />
+        <dependency id="OpenTelemetry.Exporter.Zipkin" version="1.4.0" exclude="Build,Analyzers" />
+        <dependency id="OpenTelemetry.Extensions.Hosting" version="1.4.0" exclude="Build,Analyzers" />
+        <dependency id="OpenTelemetry.Instrumentation.Http" version="1.0.0-rc9.14" exclude="Build,Analyzers" />
+        <dependency id="OpenTelemetry.Instrumentation.Runtime" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Oracle.EntityFrameworkCore" version="5.21.4" exclude="Build,Analyzers" />
+        <dependency id="Polly" version="7.0.3" exclude="Build,Analyzers" />
+        <dependency id="Pomelo.EntityFrameworkCore.MySql" version="5.0.2" exclude="Build,Analyzers" />
+        <dependency id="Pomelo.EntityFrameworkCore.MySql.Design" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="RabbitMQ.Client" version="6.4.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog" version="2.12.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Formatting.Compact" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="protobuf-net" version="3.1.22" exclude="Build,Analyzers" />
+        <dependency id="protobuf-net.Core" version="3.1.22" exclude="Build,Analyzers" />
+        <dependency id="protobuf-net.Grpc" version="1.0.177" exclude="Build,Analyzers" />
+        <dependency id="protobuf-net.Grpc.ClientFactory" version="1.0.177" exclude="Build,Analyzers" />
+        <dependency id="protobuf-net.Grpc.Native" version="1.0.177" exclude="Build,Analyzers" />
+        <dependency id="protobuf-net.Grpc.Reflection" version="1.0.177" exclude="Build,Analyzers" />
+        <dependency id="protobuf-net.MSBuild" version="3.1.22" exclude="Build,Analyzers" />
+        <dependency id="protobuf-net.Reflection" version="3.1.22" exclude="Build,Analyzers" />
+        <dependency id="protobuf-net.ServiceModel" version="3.1.17" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net6.0/Properties/nlog.config" buildAction="Content" />
+      <files include="any/net6.0/Properties/nlog.Development.config" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="X:\DEVELOPMENT\PROJECTS\NET\Undersoft\Universer\Undersoft.SDK\src\Undersoft.SDK.RadicalR\bin\Debug\net6.0\Undersoft.SDK.RadicalR.dll" target="lib\net6.0\Undersoft.SDK.RadicalR.dll" />
+    <file src="X:\DEVELOPMENT\PROJECTS\NET\Undersoft\Universer\Undersoft.SDK\src\Undersoft.SDK.RadicalR\Properties\nlog.config" target="content\Properties\nlog.config" />
+    <file src="X:\DEVELOPMENT\PROJECTS\NET\Undersoft\Universer\Undersoft.SDK\src\Undersoft.SDK.RadicalR\Properties\nlog.config" target="contentFiles\any\net6.0\Properties\nlog.config" />
+    <file src="X:\DEVELOPMENT\PROJECTS\NET\Undersoft\Universer\Undersoft.SDK\src\Undersoft.SDK.RadicalR\Properties\nlog.Development.config" target="content\Properties\nlog.Development.config" />
+    <file src="X:\DEVELOPMENT\PROJECTS\NET\Undersoft\Universer\Undersoft.SDK\src\Undersoft.SDK.RadicalR\Properties\nlog.Development.config" target="contentFiles\any\net6.0\Properties\nlog.Development.config" />
+  </files>
+</package>
